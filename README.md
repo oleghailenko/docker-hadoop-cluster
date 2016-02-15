@@ -7,7 +7,7 @@
 3. Each host should be able to recognize each other by hostname. Simplest way to do this - use /etc/hosts
 
 ## Installation
-1. Specify host names of the master and slave nodes in files `masters` and `slaves` respectively.
+1. Specify host names of the master and slave nodes in files `masters` and `nodes` respectively.
 2. Run script `set-up-env.sh` for download all dependencies.
 3. Run script `build.sh` for build Docker images.
 4. Run script `start.sh` for start cluster.
