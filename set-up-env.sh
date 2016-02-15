@@ -10,5 +10,5 @@ wget http://apache.mirrors.tds.net/hadoop/common/hadoop-2.7.1/hadoop-2.7.1.tar.g
 wget --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz -P hadoop-base/files/
 
 # 4. Fill slave nodes names
-echo "master" > hadoop-namenode/files/slaves
-cat nodes >> hadoop-namenode/files/slaves
+cat nodes > hadoop-namenode/files/slaves
+cat masters > hadoop-namenode/files/masters
